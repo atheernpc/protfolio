@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atheer's Portfolio</title>
+    <style>
+        body {
+            font-family: 'Monsteratt', sans-serif; /* Monsteratt font */
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2; /* Light grey background */
+            color: #333333; /* Dark grey text */
+        }
+
+        h1, h2, h3 {
+            font-family: 'Lato', sans-serif; /* Lato font */
+        }
+
+        .introduction {
+            background-color: #e9ecef; /* Light grey introduction section */
+            padding: 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .introduction-content {
+            max-width: 50%;
+        }
+
+        .introduction-content h1 {
+            font-size: 36px;
+            color: #000000; /* Black heading */
+        }
+
+        .role {
+            font-size: 24px;
+            color: #007bff; /* Light blue role */
+            margin-bottom: 20px;
+        }
+
+        .social-icons {
+            display: flex;
+            margin-bottom: 20px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            height: 30px;
+            margin-right: 10px;
+        }
+
+        .resume-button {
+            background-color: #007bff; /* Light blue button */
+            color: #ffffff; /* White text */
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-right: 20px;
+        }
+
+        .resume-button:hover {
+            background-color: #0056b3; /* Darker blue on hover */
+        }
+
+        .profile-image {
+            max-width: 50%;
+            text-align: right;
+        }
+
+        .profile-image img {
+            width: 100%;
+            border-radius: 50%;
+            max-width: 300px;
+        }
+
+        .projects {
+            background-color: #ffffff; /* White projects section */
+            padding: 50px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .project {
+            width: calc(33.33% - 20px);
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .project img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .skills {
+            background-color: #f0f0f0;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .skill-bar {
+            background-color: #e0e0e0;
+            height: 20px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            overflow: hidden;
+        }
+
+        .bar {
+            height: 100%;
+            background: linear-gradient(to right, #007bff, #007bff);
+            width: 50%;
+            transition: width 1s ease-in-out;
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        @font-face {
+            font-family: 'Monsteratt';
+            src: url('path/to/Monsteratt.ttf') format('truetype');
+            /* Replace 'path/to/Monsteratt.ttf' with the actual path to your Monsteratt font file */
+        }
+    </style>
+</head>
+<body>
+    <section class="introduction">
+        <div class="introduction-content">
+            <h1>I'm Atheer</h1>
+            <p class="role">Software Developer</p>
+            <div class="social-icons">
+                <img src="linkedin.png" alt="LinkedIn">
+                <img src="github.png" alt="GitHub">
+                <img src="twitter.png" alt="Twitter">
+            </div>
+            <a href="#" class="resume-button">Download Resume</a>
+        </div>
+        <div class="profile-image">
+            <img src="snapedit_1709365082817.jpeg" alt="Atheer">
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2 style="font-size: 32px; text-align: center; margin-bottom: 20px;">Project Showcase</h2>
+        <div class="project">
+            <img src="349f2e68871707.5b6c370540d19.png" alt="Project 1" style="width: 150px; display: block; margin: 0 auto;">
+            <h3 style="text-align: center;">Project 1</h3>
+        </div>
+        <div class="project">
+            <img src="70060-big.webp" alt="Project 2" style="width: 150px; display: block; margin: 0 auto;">
+            <h3 style="text-align: center;">Project 2</h3>
+        </div>
+        <div class="project">
+            <img src="Screenshot 2024-03-13 at 7.59.31 PM.png" alt="Project 3" style="width: 150px; display: block; margin: 0 auto;">
+            <h3 style="text-align: center;">Project 3</h3>
+        </div>
+    </section>
+    <section class="skills">
+        <div class="skill">
+            <h2 style="font-size: 24px; text-align: center; margin-bottom: 20px;">Skills Showcase</h2>
+        </div>
+        <div class="skill">
+            <h3>CSS Skill Level</h3>
+            <div class="skill-bar">
+                <div class="bar" style="width: 50%;"></div>
+            </div>
+            <p>Proficiency Level: 50%</p>
+            <p>Assess My CSS Proficiency: <a href="#">Click Here</a></p>
+        </div>
+        <div class="skill">
+            <h3>React Skill Level</h3>
+            <div class="skill-bar">
+                <div class="bar" style="width: 70%;"></div>
+            </div>
+            <p>Proficiency Level: 70%</p>
+            <p>Evaluate My React Expertise: <a href="#">Click Here</a></p>
+        </div>
+        <div class="skill">
+            <h3>Python Skill Level</h3>
+            <div class="skill-bar">
+                <div class="bar" style="width: 75%;"></div>
+            </div>
+            <p>Proficiency Level: 75%</p>
+            <p>Assess My Python Proficiency: <a href="#">Click Here</a></p>
+        </div>
+    </section>
+</body>
+</html>
+
+
